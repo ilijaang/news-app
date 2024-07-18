@@ -66,4 +66,20 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.retrofit)
+    implementation(libs.dagger.hilt.android)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.okhttp.loggingInterceptor)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.retrofit.converter.moshi)
+    implementation(libs.timber)
+    implementation(libs.room.ktx)
+    implementation(libs.room.runtime)
+    implementation(libs.room.paging)
+    implementation(libs.room.compiler)
+    implementation(libs.glide)
+    implementation(libs.glide.compiler)
+    implementation(libs.gson)
+
 }
