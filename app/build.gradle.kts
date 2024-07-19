@@ -77,7 +77,6 @@ dependencies {
     implementation(libs.room.ktx)
     implementation(libs.room.runtime)
     implementation(libs.room.paging)
-    implementation(libs.room.compiler)
     implementation(libs.glide)
     implementation(libs.glide.compiler)
     implementation(libs.gson)
