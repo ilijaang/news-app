@@ -80,5 +80,6 @@ dependencies {
     implementation(libs.glide)
     implementation(libs.glide.compiler)
     implementation(libs.gson)
+    implementation(libs.splash.screen)
 
 }
